@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/bags"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light"
+        tools:targetApi="31">
+        <activity
+            android:name=".PayHere.Pay_Success"
+            android:exported="false" />
+        <activity
+            android:name=".Update_Profile"
+            android:exported="false" />
+        <activity
+            android:name=".User.Profile"
+            android:exported="false" />
+        <activity
+            android:name=".PayHere.Payment"
+            android:exported="false" />
+        <activity
+            android:name=".BiscuitsItems.Cookies_Des"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".JuicesItems.Faluda_Des"
+            android:exported="false" />
+        <activity
+            android:name=".JuicesItems.Vanilla_Des"
+            android:exported="false" />
+        <activity
+            android:name=".JuicesItems.AppleJuice_Des"
+            android:exported="false" />
+        <activity
+            android:name=".JuicesItems.Milo_Des"
+            android:exported="false" />
+        <activity
+            android:name=".JuicesItems.Fito_Des"
+            android:exported="false" />
+        <activity
+            android:name=".JuicesItems.MixedFruit_Des"
+            android:exported="false" />
+        <activity
+            android:name=".SeaFoodItems.Tuna_Des"
+            android:exported="false" />
+        <activity
+            android:name=".SeaFoodItems.Clams_Des"
+            android:exported="false" />
+        <activity
+            android:name=".SeaFoodItems.CatFish_Des"
+            android:exported="false" />
+        <activity
+            android:name=".SeaFoodItems.Salmon_Des"
+            android:exported="false" />
+        <activity
+            android:name=".SeaFoodItems.Crab_Des"
+            android:exported="false" />
+        <activity
+            android:name=".SeaFoodItems.Shrimp_Des"
+            android:exported="false" />
+        <activity
+            android:name=".BiscuitsItems.Puff_Des"
+            android:exported="false" />
+        <activity
+            android:name=".BiscuitsItems.Shock_Des"
+            android:exported="false" />
+        <activity
+            android:name=".BiscuitsItems.Cracker_Des"
+            android:exported="false" />
+        <activity
+            android:name=".BiscuitsItems.Tifin_Des"
+            android:exported="false" />
+        <activity
+            android:name=".BiscuitsItems.Milk_Des"
+            android:exported="false" />
+        <activity
+            android:name=".BakeryItems.Sausage_Des"
+            android:exported="false" />
+        <activity
+            android:name=".BakeryItems.HotDog_Des"
+            android:exported="false" />
+        <activity
+            android:name=".BakeryItems.Breadbun_Des"
+            android:exported="false" />
+        <activity
+            android:name=".BakeryItems.ChocCake_Des"
+            android:exported="false" />
+        <activity
+            android:name=".BakeryItems.CupCake_Des"
+            android:exported="false" />
+        <activity
+            android:name=".BakeryItems.Bread_Des"
+            android:exported="false" />
+        <activity
+            android:name=".VegetablesItems.Onion_Des"
+            android:exported="false" />
+        <activity
+            android:name=".VegetablesItems.Tomato_Des"
+            android:exported="false" />
+        <activity
+            android:name=".VegetablesItems.Chilli_Des"
+            android:exported="false" />
+        <activity
+            android:name=".VegetablesItems.Potato_Des"
+            android:exported="false" />
+        <activity
+            android:name=".VegetablesItems.Carrot_Des"
+            android:exported="false" />
+        <activity
+            android:name=".VegetablesItems.Cabbage_Des"
+            android:exported="false" />
+        <activity
+            android:name=".FruitsItems.Guava_Des"
+            android:exported="false" />
+        <activity
+            android:name=".FruitsItems.Avocado_Des"
+            android:exported="false" />
+        <activity
+            android:name=".FruitsItems.WaterMelon_Des"
+            android:exported="false" />
+        <activity
+            android:name=".FruitsItems.Grape_Des"
+            android:exported="false" />
+        <activity
+            android:name=".FruitsItems.Apple_Des"
+            android:exported="false" />
+        <activity
+            android:name=".FruitsItems.Banana_Des"
+            android:exported="false" />
+        <activity
+            android:name=".GroceryCategories.Juices"
+            android:exported="false" />
+        <activity
+            android:name=".GroceryCategories.SeaFood"
+            android:exported="false" />
+        <activity
+            android:name=".GroceryCategories.Biscuits"
+            android:exported="false" />
+        <activity
+            android:name=".GroceryCategories.Bakery"
+            android:exported="false" />
+        <activity
+            android:name=".GroceryCategories.Vegetables"
+            android:exported="false" />
+        <activity
+            android:name=".Categories"
+            android:exported="false" />
+        <activity
+            android:name=".My_Cart"
+            android:exported="false" />
+        <activity
+            android:name=".GroceryCategories.Fruits"
+            android:exported="false" />
+        <activity
+            android:name=".Location.Gps"
+            android:exported="false" />
+        <activity
+            android:name=".Home"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBRxe03nB8WMptxE8RvEr3DUP_6Z4NNpvQ" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".Location.GroceryMap"
+            android:exported="false" />
+        <activity
+            android:name=".Location.Gps"
+            android:exported="false"
+            tools:ignore="DuplicateActivity" />
+        <activity
+            android:name=".RegiesterPage.Login"
+            android:exported="false" />
+        <activity
+            android:name=".RegiesterPage.Signup"
+            android:exported="false" />
+        <activity
+            android:name=".Splash"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name=".Database.OrderProvider"
+            android:authorities="com.designproject.onlinegrocery"
+            android:exported="true" />
+    </application>
+
+</manifest>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".User.Profile">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+            android:padding="24dp"
+            android:background="@drawable/background_btn_intro2">
+
+            <TextView
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:layout_marginTop="30dp"
+                android:drawableLeft="@drawable/baseline_email_24"
+                android:text=" "
+                android:textColor="#000000"
+                android:textSize="18sp"
+                app:cornerRadius="10dp"
+                android:gravity="center_vertical" />
+
+            <TextView
+                android:id="@+id/address"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="30dp"
+                android:drawableLeft="@drawable/baseline_location_on_24"
+                android:text=" "
+                android:textColor="#000000"
+                android:textSize="18sp"
+                app:cornerRadius="10dp"
+                android:gravity="center_vertical" />
+
+            <TextView
+                android:id="@+id/phone"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:layout_marginTop="30dp"
+                android:text=" "
+                android:drawableLeft="@drawable/baseline_phone_24"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                app:cornerRadius="20dp"
+                android:gravity="center_vertical" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Logout"
+                android:id="@+id/logout"
+                android:textSize="18sp"
+                android:textColor="#ffffff"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/background_btn_3"
+                app:cornerRadius="20dp" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

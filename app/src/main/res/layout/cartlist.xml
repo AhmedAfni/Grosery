@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Item Name"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:id="@+id/itemNameInCart"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/itemNameInCart"
+        android:text="x"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        android:id="@+id/quantityInCart"
+        android:layout_marginLeft="10dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="$10"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:id="@+id/priceInCart"
+        android:layout_marginRight="10dp" />
+
+    <Button
+        android:id="@+id/Drop"
+        android:layout_width="106dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/priceInCart"
+        android:layout_alignParentRight="true"
+        android:text="Delete"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+</RelativeLayout>
