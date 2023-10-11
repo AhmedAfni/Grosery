@@ -37,7 +37,7 @@ To run the app locally or contribute to the project, you'll need the following:
 
 1. Clone this repository to your local machine:
 ```bash
-git clone
+git clone https://github.com/AhmedAfni/Grosery.git
 ```
 2. Open the project in Android Studio.
 3. Build and run the app on your emulator or device.
