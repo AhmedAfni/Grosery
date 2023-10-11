@@ -24,6 +24,20 @@ Welcome to the Online Grocery Shopping App! This mobile application project, wri
 
 ## Screenshots
 
+<div align="center">
+  <img src="assets/a.jpg" width="150" style="margin-right: 5px;">
+  <img src="assets/b.jpg" width="150" style="margin-right: 5px;">
+  <img src="assets/c.jpg" width="150" style="margin-right: 5px;">
+  <img src="assets/d.jpg" width="150" style="margin-right: 5px;">
+  
+</div>
+
+<div align="center">
+  <img src="assets/e.jpg" width="150" style="margin-right: 5px;">
+  <img src="assets/f.jpg" width="150" style="margin-right: 5px;">
+  <img src="assets/g.jpg" width="150" style="margin-right: 5px;">
+</div>
+
 ## Getting Started
 
 ### Prerequisites
